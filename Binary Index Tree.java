@@ -24,7 +24,7 @@ class Ideone{
 
 			int sum = 0;
 			for(int i = 1; i < this.size; i++){
-				sum += arr[i];
+				sum = sum + arr[i];
 				prefix[i] = sum;
 			}
 
